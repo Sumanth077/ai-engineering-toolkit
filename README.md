@@ -196,6 +196,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [LM Studio](https://lmstudio.ai/) | Desktop app for running local LLMs | - | Commercial |
 | [GPT4All](https://github.com/nomic-ai/gpt4all) | Open-source chatbot ecosystem | C++ | MIT |
 | [LocalAI](https://github.com/mudler/LocalAI) | Self-hosted OpenAI-compatible API | Go | MIT |
+| [llama.cpp](https://github.com/ggml-org/llama.cpp) | Deploy LLMs locally with different backend supports | C++ | MIT |
 
 ### LLM Inference Platforms
 
