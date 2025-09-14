@@ -111,6 +111,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Selenium](https://github.com/SeleniumHQ/selenium) | Browser automation framework (supports scraping) | Multiple | Apache-2.0 |
 | [Apify SDK](https://github.com/apify/apify-sdk-python) | Web scraping & automation platform SDK | Python/JavaScript | Apache-2.0 |
 | [Newspaper3k](https://github.com/codelucas/newspaper) | News & article extraction library | Python | MIT |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai) | Fast, lightweight, and modern web crawling & scraping library for AI data pipelines | Python | Apache-2.0 |
 
 ## 🤖 Agent Frameworks
 
@@ -128,6 +129,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) | Infrastructure for building and managing autonomous agents | Python | MIT |
 | [Phidata](https://github.com/phidatahq/phidata) | Build AI agents with memory, tools, and knowledge | Python | MIT |
 | [MemGPT](https://github.com/cpacker/MemGPT) | Self-improving agents with infinite context via memory management | Python | MIT |
+| [RASA](https://github.com/RasaHQ/rasa) | Open-source framework for building contextual AI assistants and chatbots | Python | Apache-2.0 |
 
 ## 📦 LLM Development & Optimization
 
@@ -186,6 +188,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Gradio](https://github.com/gradio-app/gradio) | Create quick, interactive UIs for LLM demos and prototypes. | Python | Apache-2.0 |
 | [Streamlit](https://github.com/streamlit/streamlit) | Build and share AI/ML apps fast with Python scripts and interactive widgets. | Python | Apache-2.0 |
 | [Taipy](https://github.com/Avaiga/taipy) | End-to-end Python framework for building production-ready AI apps with dashboards and pipelines. | Python | Apache-2.0 |
+| [LangServe](https://github.com/langchain-ai/langserve) | Effortlessly deploy LangChain chains as a REST API with a live playground | Python | MIT |
 
 
 ### Local Development & Serving
@@ -206,6 +209,8 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Replicate](https://replicate.com/) | Run open-source models with a cloud API | Pay-per-use | Pre-built models, Custom training |
 | [Together AI](https://www.together.ai/) | Cloud platform for open-source models | Various | Open models, Fine-tuning |
 | [Anyscale](https://www.anyscale.com/) | Ray-based platform for AI applications | Enterprise | Distributed training, Serving |
+| [Groq](https://groq.com/) | Ultra-fast LPU inference engine for running open AI models |Free tier + Pay-per-use | Blazing fast speed, High throughput, Low latency, Open model support |
+| [OpenRouter](https://openrouter.ai/) | Universal API to find and route to the best LLMs from various providers | Free tier + Pay-per-use | Multi-provider access, Unified API, Model comparison, Caching |
 
 ## 🤝 Contributing
 
