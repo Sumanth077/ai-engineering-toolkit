@@ -27,6 +27,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 - [📦 LLM Development & Optimization](#llm-development--optimization)
   - [Open Source LLM Inference](#open-source-llm-inference)
   - [LLM Safety & Security](#llm-safety--security)
+  - [Infrastructure & Deployment](infrastructure--deployment)
   - [AI App Development Frameworks](#ai-app-development-frameworks)
   - [Local Development & Serving](#local-development--serving)
   - [LLM Data Generation](#llm-data-generation)
@@ -249,6 +250,12 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [torchchat](https://github.com/facebookresearch/torchchat) | Run PyTorch LLMs locally on servers, desktop, and mobile | Python | MIT |
 | [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | NVIDIA library for optimizing LLM inference with TensorRT | C++/Python | Apache-2.0 |
 | [WebLLM](https://github.com/mlc-ai/web-llm) | High-performance in-browser LLM inference engine | TypeScript/Python | Apache-2.0 |
+
+### Infrastructure & Deployment
+
+| Tool | Description | Language | License |
+|------|-------------|----------|---------|
+| [SkyPilot](https://github.com/skypilot-org/skypilot) | Unified framework to run ML workloads and LLMs on any cloud (AWS, GCP, Azure, Lambda, etc.) with auto-spot, data syncing, and cost optimization. | Python | Apache-2.0 |
 
 ### LLM Safety and Security
 
