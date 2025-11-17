@@ -148,6 +148,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Selenium](https://github.com/SeleniumHQ/selenium) | Browser automation framework (supports scraping) | Multiple | Apache-2.0 |
 | [Apify SDK](https://github.com/apify/apify-sdk-python) | Web scraping & automation platform SDK | Python/JavaScript | Apache-2.0 |
 | [Newspaper3k](https://github.com/codelucas/newspaper) | News & article extraction library | Python | MIT |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai) | Fast, lightweight, and modern web crawling & scraping library for AI data pipelines | Python | Apache-2.0 |
 | [Colly](https://github.com/gocolly/colly) | High-performance scraping framework for Go | Go | BSD-2 |
 | [Trafilatura](https://github.com/adbar/trafilatura) | Extract clean text from web pages for LLM training corpora | Python | MIT |
 | [Data Prep Kit](https://github.com/databricks/data-prep-kit) | Toolkit for cleaning, transforming, and preparing datasets for LLMs | Python | Apache-2.0 |
@@ -193,34 +194,15 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) | Autonomous AI agent for task execution using GPT models | Python | MIT |
 | [BabyAGI](https://github.com/yoheinakajima/babyagi) | Task-driven autonomous agent inspired by AGI | Python | MIT |
 | [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) | Infrastructure for building and managing autonomous agents | Python | MIT |
-| [Phidata](https://github.com/phidatahq/phidata) | Build AI agents with memory, tools, and knowledge | Python | MIT |
-| [MemGPT](https://github.com/cpacker/MemGPT) | Self-improving agents with infinite context via memory management | Python | MIT |
 | [Griptape](https://github.com/griptape-ai/griptape) | Framework for building AI agents with structured pipelines and memory | Python | Apache-2.0 |
-| [mem0](https://github.com/mem0ai/mem0) | AI memory framework for storing & retrieving agent context across sessions | Python | MIT |
-| [Memoripy](https://github.com/memoripy/memoripy) | Lightweight persistent memory library for LLMs and agents | Python | MIT |
-| [Memobase](https://github.com/memobase/memobase) | Database-like persistent memory for conversational agents | Python | MIT |
 | [Letta (MemGPT)](https://github.com/LettaAI/memgpt) | Long-term memory management for LLM agents | Python | MIT |
 | [Agno](https://github.com/agno-ai/agno) | Framework for building AI agents with RAG, workflows, and memory | Python | Apache-2.0 |
 | [Agents SDK](https://github.com/vercel/ai) | SDK from Vercel for building agentic workflows and applications | TypeScript | Apache-2.0 |
 | [Smolagents](https://github.com/huggingface/smolagents) | Lightweight agent framework from Hugging Face | Python | Apache-2.0 |
 | [Pydantic AI](https://github.com/pydantic/pydantic-ai) | Agent framework built on Pydantic for structured reasoning | Python | MIT |
 | [CAMEL](https://github.com/camel-ai/camel) | Multi-agent framework enabling role-play and collaboration | Python | Apache-2.0 |
-| [BeeAI](https://github.com/bee-ai/bee-ai) | LLM agent framework for AI-driven workflows and automation | Python | Apache-2.0 |
-| [gradio-tools](https://github.com/freddyaboulton/gradio-tools) | Integrate external tools into agents via Gradio apps | Python | Apache-2.0 |
-| [Composio](https://github.com/composio/composio) | Tool orchestration framework to connect 100+ APIs for agents | Python | Apache-2.0 |
-| [Atomic Agents](https://github.com/atomic-agents/atomic-agents) | Modular agent framework with tool usage and reasoning | Python | Apache-2.0 |
-| [Memary](https://github.com/memary-ai/memary) | Memory-augmented agent framework for persistent context | Python | MIT |
-| [Browser Use](https://github.com/browser-use/browser-use) | Framework for browser automation with AI agents | Python | Apache-2.0 |
-| [OpenWebAgent](https://github.com/open-web-agent/open-web-agent) | Agents for interacting with and extracting from the web | Python | Apache-2.0 |
-| [Lagent](https://github.com/InternLM/lagent) | Lightweight agent framework from InternLM | Python | Apache-2.0 |
-| [LazyLLM](https://github.com/Lazy-Llm/LazyLLM) | Agent framework for lazy evaluation and efficient execution | Python | Apache-2.0 |
 | [Swarms](https://github.com/kyegomez/swarms) | Enterprise agent orchestration framework (“Agency Swarm”) | Python | MIT |
-| [ChatArena](https://github.com/chatarena/chatarena) | Multi-agent simulation platform for research and evaluation | Python | Apache-2.0 |
-| [AgentStack](https://github.com/agentstack-ai/agentstack) | Agent orchestration framework (different from Agency Swarm) | Python | Apache-2.0 |
-| [Archgw](https://github.com/arch-gw/archgw) | Agent runtime for structured workflows and graph execution | Python | Apache-2.0 |
-| [Flow](https://github.com/flow-ai/flow) | Low-code agent workflow framework for LLMs | Python | Apache-2.0 |
 | [Langroid](https://github.com/langroid/langroid) | Framework for building multi-agent conversational systems | Python | Apache-2.0 |
-| [Agentarium](https://github.com/agentarium/agentarium) | Platform for creating multi-agent environments | Python | Apache-2.0 |
 | [Upsonic](https://github.com/upsonic/upsonic) | Agent framework focused on context management and tool use | Python | Apache-2.0 |
 
 ## 📦 LLM Development & Optimization
@@ -325,6 +307,8 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Replicate](https://replicate.com/) | Run open-source models with a cloud API | Pay-per-use | Pre-built models, Custom training |
 | [Together AI](https://www.together.ai/) | Cloud platform for open-source models | Various | Open models, Fine-tuning |
 | [Anyscale](https://www.anyscale.com/) | Ray-based platform for AI applications | Enterprise | Distributed training, Serving |
+| [Groq](https://groq.com/) | Ultra-fast LPU inference engine for running open AI models |Free tier + Pay-per-use | Blazing fast speed, High throughput, Low latency, Open model support |
+| [OpenRouter](https://openrouter.ai/) | Universal API to find and route to the best LLMs from various providers | Free tier + Pay-per-use | Multi-provider access, Unified API, Model comparison, Caching |
 | [RouteLLM](https://github.com/routeLLM/routeLLM) | Dynamic router for selecting best LLMs based on cost & performance | Open-source | Cost optimization, Multi-LLM routing |
 
 ## 🤝 Contributing
