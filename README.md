@@ -43,6 +43,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Milvus](https://github.com/milvus-io/milvus) | Cloud-native vector database for scalable similarity search | Go/C++ | Apache-2.0 | 
 | [FAISS](https://github.com/facebookresearch/faiss) | Library for efficient similarity search and clustering | C++/Python | MIT | 
 | [Deep Lake](https://github.com/activeloopai/deeplake) | AI-native data lake with versioned datasets, optimized for embeddings and multimodal storage | Python | Apache-2.0 | 
+| [Vectara](https://github.com/vectara) | Managed RAG platform with APIs for retrieval and generation | Python/Go | Commercial |
 
 ### Orchestration & Workflows
 
@@ -86,11 +87,8 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [txtai](https://github.com/neuml/txtai) | All-in-one embeddings database for semantic search and workflows | Python | Apache-2.0 |
 | [FastGraph RAG](https://github.com/circlemind-ai/fast-graphrag) | Graph-based RAG framework for structured retrieval | Python | MIT |
 | [Chonkie](https://github.com/bhavnicksm/chonkie-main) | Chunking utility for efficient document processing in RAG | Python | - |
-| [SQLite-Vec](https://github.com/asg017/sqlite-vec) | Vector search extension for SQLite, useful in lightweight RAG setups | C/Python | MIT |
 | [FlashRAG](https://github.com/RUC-NLPIR/FlashRAG) | Low-latency RAG research toolkit with modular design and benchmarks | Python | - |
 | [Llmware](https://github.com/llmware-ai/llmware) | Lightweight framework for building RAG-based apps | Python | Apache-2.0 |
-| [Vectara](https://github.com/vectara) | Managed RAG platform with APIs for retrieval and generation | Python/Go | Commercial |
-| [GPTCache](https://github.com/zilliztech/GPTCache) | Semantic cache for LLM responses to accelerate RAG pipelines | Python | Apache-2.0 |
 
 ### Evaluation & Testing
 
