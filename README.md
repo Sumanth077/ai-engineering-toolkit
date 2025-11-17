@@ -46,6 +46,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Chroma](https://github.com/chroma-core/chroma) | Open-source embedding database for LLM apps | Python | Apache-2.0 |
 | [Milvus](https://github.com/milvus-io/milvus) | Cloud-native vector database for scalable similarity search | Go/C++ | Apache-2.0 | 
 | [FAISS](https://github.com/facebookresearch/faiss) | Library for efficient similarity search and clustering | C++/Python | MIT | 
+| [Deep Lake](https://github.com/activeloopai/deeplake) | AI-native data lake with versioned datasets, optimized for embeddings and multimodal storage | Python | Apache-2.0 | 
 
 ### Orchestration & Workflows
 
@@ -69,6 +70,8 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [PyMuPDF (fitz)](https://github.com/pymupdf/PyMuPDF) | Lightweight, high-performance PDF parser for text/image extraction and manipulation | Python / C | AGPL-3.0 |
 | [PDF.js](https://github.com/mozilla/pdf.js) | Browser-based PDF renderer with text extraction capabilities | JavaScript | Apache-2.0 | 
 | [Camelot](https://github.com/camelot-dev/camelot) | Extracts structured tabular data from PDFs into DataFrames and CSVs | Python | MIT |
+| [Unstructured](https://github.com/Unstructured-IO/unstructured) | Parse PDFs, DOCX, HTML into structured JSON for LLM workflows | Python | Apache-2.0 |
+| [pdfminer.six](https://github.com/pdfminer/pdfminer.six) | Detailed PDF text extraction and layout analysis | Python | MIT |
 | [Llama Parse](https://github.com/run-llama/llama_parse) | Structured parsing of PDFs and documents optimized for LLMs | Python | Apache-2.0 |
 | [MegaParse](https://github.com/megaparse/megaparse) | Universal parser for PDFs, HTML, and semi-structured documents | Python | Apache-2.0 |
 | [ExtractThinker](https://github.com/extract-thinker/extract-thinker) | Intelligent document extraction framework with schema mapping | Python | MIT |
@@ -104,6 +107,8 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [TruLens](https://github.com/truera/trulens) | Evaluation and tracking for LLM experiments | Python | MIT |
 | [Inspect](https://github.com/ukaisi/inspect) | Framework for large language model evaluations | Python | Apache-2.0 |
 | [UpTrain](https://github.com/uptrain-ai/uptrain) | Open-source tool to evaluate and improve LLM applications | Python | Apache-2.0 |
+| [Giskard](https://github.com/Giskard-AI/giskard) | Testing framework for ML/LLMs with bias and robustness checks | Python | Apache-2.0 |
+| [CheckList](https://github.com/marcotcr/checklist) | Behavioral NLP test framework for systematic evaluation | Python | MIT |
 | [Weave](https://github.com/wandb/weave) | Experiment tracking, debugging, and logging for LLM workflows | Python | Apache-2.0 |
 | [Giskard](https://github.com/Giskard-AI/giskard) | Open-source testing framework for ML/LLM applications | Python | Apache-2.0 |
 | [Lighteval](https://github.com/huggingface/lighteval) | Lightweight and fast evaluation framework from Hugging Face | Python | Apache-2.0 |
@@ -143,6 +148,8 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Selenium](https://github.com/SeleniumHQ/selenium) | Browser automation framework (supports scraping) | Multiple | Apache-2.0 |
 | [Apify SDK](https://github.com/apify/apify-sdk-python) | Web scraping & automation platform SDK | Python/JavaScript | Apache-2.0 |
 | [Newspaper3k](https://github.com/codelucas/newspaper) | News & article extraction library | Python | MIT |
+| [Colly](https://github.com/gocolly/colly) | High-performance scraping framework for Go | Go | BSD-2 |
+| [Trafilatura](https://github.com/adbar/trafilatura) | Extract clean text from web pages for LLM training corpora | Python | MIT |
 | [Data Prep Kit](https://github.com/databricks/data-prep-kit) | Toolkit for cleaning, transforming, and preparing datasets for LLMs | Python | Apache-2.0 |
 | [ScrapeGraphAI](https://github.com/VinciGit00/Scrapegraph-ai) | Use LLMs to extract structured data from websites and documents | Python | MIT |
 | [Crawlee](https://github.com/apify/crawlee) | Web scraping and crawling framework for large-scale data collection | TypeScript | Apache-2.0 |
