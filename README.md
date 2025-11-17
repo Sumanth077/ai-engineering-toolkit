@@ -300,6 +300,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [LM Studio](https://lmstudio.ai/) | Desktop app for running local LLMs | - | Commercial |
 | [GPT4All](https://github.com/nomic-ai/gpt4all) | Open-source chatbot ecosystem | C++ | MIT |
 | [LocalAI](https://github.com/mudler/LocalAI) | Self-hosted OpenAI-compatible API | Go | MIT |
+| [llama.cpp](https://github.com/ggml-org/llama.cpp) | Lightweight, high-performance inference engine for running LLMs locally across CPU, GPU, and mobile backends | C++ | MIT |
 | [LiteLLM](https://github.com/BerriAI/litellm) | Lightweight OpenAI-compatible gateway for multiple LLM providers | Python | MIT |
 | [AI Gateway](https://github.com/Portkey-AI/ai-gateway) | Gateway for managing LLM requests, caching, and routing | Python | Apache-2.0 |
 | [Langcorn](https://github.com/langcorn/langcorn) | Serve LangChain applications via FastAPI with production-ready endpoints | Python | MIT |
