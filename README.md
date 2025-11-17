@@ -21,12 +21,16 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
   - [Evaluation & Testing](#evaluation--testing)
   - [Model Management](#model-management)
   - [Data Collection & Web Scraping](#data-collection--web-scraping)
+  - [Prompt Engineering & Optimization](#prompt-engineering--optimization)
+  - [Structured Output & Constrained Generation](#structured-output--constrained-generation)
 - [🤖 Agent Frameworks](#-agent-frameworks)
 - [📦 LLM Development & Optimization](#llm-development--optimization)
   - [Open Source LLM Inference](#open-source-llm-inference)
   - [LLM Safety & Security](#llm-safety--security)
+  - [Infrastructure & Deployment](infrastructure--deployment)
   - [AI App Development Frameworks](#ai-app-development-frameworks)
   - [Local Development & Serving](#local-development--serving)
+  - [LLM Data Generation](#llm-data-generation)
   - [LLM Inference Platforms](#llm-inference-platforms)
 - [🤝 Contributing](#-contributing)
 
@@ -42,6 +46,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Chroma](https://github.com/chroma-core/chroma) | Open-source embedding database for LLM apps | Python | Apache-2.0 |
 | [Milvus](https://github.com/milvus-io/milvus) | Cloud-native vector database for scalable similarity search | Go/C++ | Apache-2.0 | 
 | [FAISS](https://github.com/facebookresearch/faiss) | Library for efficient similarity search and clustering | C++/Python | MIT | 
+| [Deep Lake](https://github.com/activeloopai/deeplake) | AI-native data lake with versioned datasets, optimized for embeddings and multimodal storage | Python | Apache-2.0 | 
 
 ### Orchestration & Workflows
 
@@ -54,6 +59,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | SDK for integrating AI into conventional programming languages | C#/Python/Java | MIT | 
 | [Langflow](https://github.com/langflow-ai/langflow) | Visual no-code platform for building and deploying LLM workflows | Python/TypeScript | MIT |
 | [Flowise](https://github.com/FlowiseAI/Flowise) | Drag-and-drop UI for creating LLM chains and agents | TypeScript | MIT |
+| [Promptflow](https://github.com/microsoft/promptflow) | Workflow orchestration for LLM pipelines, evaluation, and deployment | Python | MIT |
 
 ### PDF Extraction Tools
 
@@ -64,6 +70,12 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [PyMuPDF (fitz)](https://github.com/pymupdf/PyMuPDF) | Lightweight, high-performance PDF parser for text/image extraction and manipulation | Python / C | AGPL-3.0 |
 | [PDF.js](https://github.com/mozilla/pdf.js) | Browser-based PDF renderer with text extraction capabilities | JavaScript | Apache-2.0 | 
 | [Camelot](https://github.com/camelot-dev/camelot) | Extracts structured tabular data from PDFs into DataFrames and CSVs | Python | MIT |
+| [Unstructured](https://github.com/Unstructured-IO/unstructured) | Parse PDFs, DOCX, HTML into structured JSON for LLM workflows | Python | Apache-2.0 |
+| [pdfminer.six](https://github.com/pdfminer/pdfminer.six) | Detailed PDF text extraction and layout analysis | Python | MIT |
+| [Llama Parse](https://github.com/run-llama/llama_parse) | Structured parsing of PDFs and documents optimized for LLMs | Python | Apache-2.0 |
+| [MegaParse](https://github.com/megaparse/megaparse) | Universal parser for PDFs, HTML, and semi-structured documents | Python | Apache-2.0 |
+| [ExtractThinker](https://github.com/extract-thinker/extract-thinker) | Intelligent document extraction framework with schema mapping | Python | MIT |
+| [PyMuPDF4LLM](https://github.com/JKamlah/pyMuPDF4LLM) | Wrapper around PyMuPDF for LLM-ready text, tables, and image extraction | Python | Apache-2.0 |
 
 ### RAG (Retrieval-Augmented Generation)
 
@@ -76,6 +88,13 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Quivr](https://github.com/QuivrHQ/quivr) | Your GenAI second brain | Python/TypeScript | Apache-2.0 |
 | [Jina](https://github.com/jina-ai/jina) | Cloud-native neural search framework for multimodal RAG | Python | Apache-2.0 |
 | [txtai](https://github.com/neuml/txtai) | All-in-one embeddings database for semantic search and workflows | Python | Apache-2.0 |
+| [FastGraph RAG](https://github.com/circlemind-ai/fast-graphrag) | Graph-based RAG framework for structured retrieval | Python | MIT |
+| [Chonkie](https://github.com/bhavnicksm/chonkie-main) | Chunking utility for efficient document processing in RAG | Python | - |
+| [SQLite-Vec](https://github.com/asg017/sqlite-vec) | Vector search extension for SQLite, useful in lightweight RAG setups | C/Python | MIT |
+| [FlashRAG](https://github.com/RUC-NLPIR/FlashRAG) | Low-latency RAG research toolkit with modular design and benchmarks | Python | - |
+| [Llmware](https://github.com/llmware-ai/llmware) | Lightweight framework for building RAG-based apps | Python | Apache-2.0 |
+| [Vectara](https://github.com/vectara) | Managed RAG platform with APIs for retrieval and generation | Python/Go | Commercial |
+| [GPTCache](https://github.com/zilliztech/GPTCache) | Semantic cache for LLM responses to accelerate RAG pipelines | Python | Apache-2.0 |
 
 ### Evaluation & Testing
 
@@ -88,6 +107,24 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [TruLens](https://github.com/truera/trulens) | Evaluation and tracking for LLM experiments | Python | MIT |
 | [Inspect](https://github.com/ukaisi/inspect) | Framework for large language model evaluations | Python | Apache-2.0 |
 | [UpTrain](https://github.com/uptrain-ai/uptrain) | Open-source tool to evaluate and improve LLM applications | Python | Apache-2.0 |
+| [Giskard](https://github.com/Giskard-AI/giskard) | Testing framework for ML/LLMs with bias and robustness checks | Python | Apache-2.0 |
+| [CheckList](https://github.com/marcotcr/checklist) | Behavioral NLP test framework for systematic evaluation | Python | MIT |
+| [Weave](https://github.com/wandb/weave) | Experiment tracking, debugging, and logging for LLM workflows | Python | Apache-2.0 |
+| [Giskard](https://github.com/Giskard-AI/giskard) | Open-source testing framework for ML/LLM applications | Python | Apache-2.0 |
+| [Lighteval](https://github.com/huggingface/lighteval) | Lightweight and fast evaluation framework from Hugging Face | Python | Apache-2.0 |
+| [LangTest](https://github.com/JohnSnowLabs/langtest) | NLP/LLM test suite for robustness, bias, and quality | Python | Apache-2.0 |
+| [PromptBench](https://github.com/microsoft/promptbench) | Benchmarking framework for evaluating prompts | Python | MIT |
+| [EvalPlus](https://github.com/evalplus/evalplus) | Advanced evaluation framework for code generation models | Python | Apache-2.0 |
+| [FastChat](https://github.com/lm-sys/FastChat) | Framework for chat-based LLM benchmarking and evaluation | Python | Apache-2.0 |
+| [judges](https://github.com/stanford-crfm/judges) | Human + AI judging framework for LLM evaluation | Python | Apache-2.0 |
+| [Evals](https://github.com/openai/evals) | OpenAI's framework for creating and running LLM evaluations | Python | MIT |
+| [AgentEvals](https://github.com/agent-evals/agent-evals) | Evaluation framework for autonomous AI agents | Python | Apache-2.0 |
+| [UQLM](https://github.com/uqfoundation/uqlm) | Unified framework for evaluating quality of LLMs | Python | Apache-2.0 |
+| [LLMBox](https://github.com/llmbox/llmbox) | Toolkit for evaluation + training of LLMs | Python | Apache-2.0 |
+| [Opik](https://github.com/opik-ai/opik) | DevOps platform for evaluation, monitoring, and observability | Python | Apache-2.0 |
+| [PydanticAI Evals](https://github.com/pydantic/pydantic-ai) | Built-in evaluation utilities for PydanticAI agents | Python | MIT |
+| [LLM Transparency Tool](https://github.com/transparency-ai/llm-transparency-tool) | Framework for probing and evaluating LLM transparency | Python | Apache-2.0 |
+| [AnnotateAI](https://github.com/annotate-ai/annotate-ai) | Annotation and evaluation framework for LLM datasets | Python | Apache-2.0 |
 
 ### Model Management
 
@@ -112,11 +149,41 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Apify SDK](https://github.com/apify/apify-sdk-python) | Web scraping & automation platform SDK | Python/JavaScript | Apache-2.0 |
 | [Newspaper3k](https://github.com/codelucas/newspaper) | News & article extraction library | Python | MIT |
 | [Crawl4AI](https://github.com/unclecode/crawl4ai) | Fast, lightweight, and modern web crawling & scraping library for AI data pipelines | Python | Apache-2.0 |
+| [Colly](https://github.com/gocolly/colly) | High-performance scraping framework for Go | Go | BSD-2 |
+| [Trafilatura](https://github.com/adbar/trafilatura) | Extract clean text from web pages for LLM training corpora | Python | MIT |
+| [Data Prep Kit](https://github.com/databricks/data-prep-kit) | Toolkit for cleaning, transforming, and preparing datasets for LLMs | Python | Apache-2.0 |
+| [ScrapeGraphAI](https://github.com/VinciGit00/Scrapegraph-ai) | Use LLMs to extract structured data from websites and documents | Python | MIT |
+| [Crawlee](https://github.com/apify/crawlee) | Web scraping and crawling framework for large-scale data collection | TypeScript | Apache-2.0 |
+
+### Prompt Engineering & Optimization
+
+| Tool | Description | Language | License |
+|------|-------------|----------|---------|
+| [Promptify](https://github.com/promptslab/Promptify) | Prompt engineering toolkit for NLP/LLM tasks | Python | Apache-2.0 |
+| [PromptSource](https://github.com/bigscience-workshop/promptsource) | Toolkit for creating, sharing, and managing prompts | Python | Apache-2.0 |
+| [Promptimizer](https://github.com/microsoft/promptimizer) | Microsoft toolkit for optimizing prompts via evaluation | Python | MIT |
+| [Py-Priompt](https://github.com/py-priompt/py-priompt) | Library for prioritizing and optimizing LLM prompts | Python | MIT |
+| [Selective Context](https://github.com/microsoft/selective-context) | Context selection and compression for efficient prompting | Python | MIT |
+| [LLMLingua](https://github.com/microsoft/LLMLingua) | Prompt compression via token selection and ranking | Python | MIT |
+| [betterprompt](https://github.com/jxnl/betterprompt) | Prompt experimentation & optimization framework | Python | Apache-2.0 |
+| [PCToolkit](https://github.com/PCToolkit/pc-toolkit) | Toolkit for prompt compression and efficiency | Python | Apache-2.0 |
+
+### Structured Output & Constrained Generation
+
+| Tool | Description | Language | License |
+|------|-------------|----------|---------|
+| [Instructor](https://github.com/jxnl/instructor) | Structured LLM outputs with Pydantic schema validation | Python | MIT |
+| [XGrammar](https://github.com/bojone/XGrammar) | Grammar-based constrained generation for LLMs | Python | Apache-2.0 |
+| [Outlines](https://github.com/outlines-dev/outlines) | Controlled generation with regex, CFGs, and schemas | Python | MIT |
+| [Guidance](https://github.com/guidance-ai/guidance) | Programmatic control of LLM outputs with constraints | Python | MIT |
+| [LMQL](https://github.com/eth-sri/lmql) | Query language for structured interaction with LLMs | Python | Apache-2.0 |
+| [Jsonformer](https://github.com/1rgs/jsonformer) | Efficient constrained decoding for valid JSON outputs | Python | MIT |
 
 ## 🤖 Agent Frameworks
 
 | Framework | Description | Language | License |
 |-----------|-------------|----------|---------|
+| [Google's ADK](https://google.github.io/adk-docs/) | Flexible and modular framework for developing and deploying AI agents | Python / Java | Apache-2.0 |
 | [AutoGen](https://github.com/microsoft/autogen) | Multi-agent conversation framework | Python | CC-BY-4.0 | 
 | [CrewAI](https://github.com/joaomdmoura/crewAI) | Framework for orchestrating role-playing autonomous AI agents | Python | MIT | 
 | [LangGraph](https://github.com/langchain-ai/langgraph) | Build resilient language agents as graphs | Python | MIT |
@@ -127,9 +194,16 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) | Autonomous AI agent for task execution using GPT models | Python | MIT |
 | [BabyAGI](https://github.com/yoheinakajima/babyagi) | Task-driven autonomous agent inspired by AGI | Python | MIT |
 | [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) | Infrastructure for building and managing autonomous agents | Python | MIT |
-| [Phidata](https://github.com/phidatahq/phidata) | Build AI agents with memory, tools, and knowledge | Python | MIT |
-| [MemGPT](https://github.com/cpacker/MemGPT) | Self-improving agents with infinite context via memory management | Python | MIT |
-| [RASA](https://github.com/RasaHQ/rasa) | Open-source framework for building contextual AI assistants and chatbots | Python | Apache-2.0 |
+| [Griptape](https://github.com/griptape-ai/griptape) | Framework for building AI agents with structured pipelines and memory | Python | Apache-2.0 |
+| [Letta (MemGPT)](https://github.com/LettaAI/memgpt) | Long-term memory management for LLM agents | Python | MIT |
+| [Agno](https://github.com/agno-ai/agno) | Framework for building AI agents with RAG, workflows, and memory | Python | Apache-2.0 |
+| [Agents SDK](https://github.com/vercel/ai) | SDK from Vercel for building agentic workflows and applications | TypeScript | Apache-2.0 |
+| [Smolagents](https://github.com/huggingface/smolagents) | Lightweight agent framework from Hugging Face | Python | Apache-2.0 |
+| [Pydantic AI](https://github.com/pydantic/pydantic-ai) | Agent framework built on Pydantic for structured reasoning | Python | MIT |
+| [CAMEL](https://github.com/camel-ai/camel) | Multi-agent framework enabling role-play and collaboration | Python | Apache-2.0 |
+| [Swarms](https://github.com/kyegomez/swarms) | Enterprise agent orchestration framework (“Agency Swarm”) | Python | MIT |
+| [Langroid](https://github.com/langroid/langroid) | Framework for building multi-agent conversational systems | Python | Apache-2.0 |
+| [Upsonic](https://github.com/upsonic/upsonic) | Agent framework focused on context management and tool use | Python | Apache-2.0 |
 
 ## 📦 LLM Development & Optimization
 
@@ -145,7 +219,6 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [DeepSpeed](https://github.com/microsoft/DeepSpeed) | Distributed training & inference optimization | Python | MIT | 
 | [TRL](https://github.com/huggingface/trl) | Train transformer LMs with reinforcement learning | Python | Apache-2.0 |
 | [Transformers](https://github.com/huggingface/transformers) | Pretrained models for text, vision, and audio tasks | Python | Apache-2.0 |
-| [LLMBox](https://github.com/microsoft/LLMBox) | Unified training pipeline & model evaluation | Python | MIT | 
 | [LitGPT](https://github.com/Lightning-AI/LitGPT) | Train and fine-tune LLMs lightning fast | Python | Apache-2.0 |
 | [Mergoo](https://github.com/mlfoundations/mergoo) | Merge multiple LLM experts efficiently | Python | Apache-2.0 | 
 | [Ludwig](https://github.com/ludwig-ai/ludwig) | Low-code framework for custom LLMs | Python | Apache-2.0 |
@@ -155,6 +228,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [torchtune](https://github.com/pytorch/torchtune) | PyTorch-native library for fine-tuning LLMs | Python | BSD-3 |
 | [Accelerate](https://github.com/huggingface/accelerate) | Library to easily train on multiple GPUs/TPUs with mixed precision | Python | Apache-2.0 |
 | [BitsandBytes](https://github.com/TimDettmers/bitsandbytes) | 8-bit optimizers and quantization for efficient LLM training | Python | MIT |
+| [Lamini](https://github.com/lamini-ai/lamini) | Python SDK for building and fine-tuning LLMs with Lamini API | Python | Apache-2.0 |
 
 ### Open Source LLM Inference
 
@@ -166,6 +240,12 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [torchchat](https://github.com/facebookresearch/torchchat) | Run PyTorch LLMs locally on servers, desktop, and mobile | Python | MIT |
 | [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | NVIDIA library for optimizing LLM inference with TensorRT | C++/Python | Apache-2.0 |
 | [WebLLM](https://github.com/mlc-ai/web-llm) | High-performance in-browser LLM inference engine | TypeScript/Python | Apache-2.0 |
+
+### Infrastructure & Deployment
+
+| Tool | Description | Language | License |
+|------|-------------|----------|---------|
+| [SkyPilot](https://github.com/skypilot-org/skypilot) | Unified framework to run ML workloads and LLMs on any cloud (AWS, GCP, Azure, Lambda, etc.) with auto-spot, data syncing, and cost optimization. | Python | Apache-2.0 |
 
 ### LLM Safety and Security
 
@@ -179,6 +259,8 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | Toolkit for adding programmable guardrails to LLM conversational systems | Python | Apache-2.0 |
 | [Garak](https://github.com/leondz/garak) | LLM vulnerability scanner | Python | MIT |
 | [DeepTeam](https://github.com/DeepTeamAI/deepteam) | LLM red teaming framework | Python | Apache-2.0 |
+| [MarkLLM](https://github.com/markllm/markllm) | Watermarking toolkit for LLM outputs | Python | Apache-2.0 |
+| [LLMSanitize](https://github.com/llm-sanitize/llm-sanitize) | Security toolkit for sanitizing LLM inputs/outputs | Python | MIT |
 
 ### AI App Development Frameworks
 
@@ -188,8 +270,9 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Gradio](https://github.com/gradio-app/gradio) | Create quick, interactive UIs for LLM demos and prototypes. | Python | Apache-2.0 |
 | [Streamlit](https://github.com/streamlit/streamlit) | Build and share AI/ML apps fast with Python scripts and interactive widgets. | Python | Apache-2.0 |
 | [Taipy](https://github.com/Avaiga/taipy) | End-to-end Python framework for building production-ready AI apps with dashboards and pipelines. | Python | Apache-2.0 |
-| [LangServe](https://github.com/langchain-ai/langserve) | Effortlessly deploy LangChain chains as a REST API with a live playground | Python | MIT |
-
+| [AI SDK UI](https://github.com/vercel/ai) | Vercel’s AI SDK for building chat & generative UIs | TypeScript | Apache-2.0 |
+| [Simpleaichat](https://github.com/minimaxir/simpleaichat) | Minimal Python interface for prototyping conversational LLMs | Python | MIT |
+| [Chainlit](https://github.com/Chainlit/chainlit) | Framework for building and debugging LLM apps with a rich UI | Python | Apache-2.0 |
 
 ### Local Development & Serving
 
@@ -199,6 +282,21 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [LM Studio](https://lmstudio.ai/) | Desktop app for running local LLMs | - | Commercial |
 | [GPT4All](https://github.com/nomic-ai/gpt4all) | Open-source chatbot ecosystem | C++ | MIT |
 | [LocalAI](https://github.com/mudler/LocalAI) | Self-hosted OpenAI-compatible API | Go | MIT |
+| [llama.cpp](https://github.com/ggml-org/llama.cpp) | Lightweight, high-performance inference engine for running LLMs locally across CPU, GPU, and mobile backends | C++ | MIT |
+| [LiteLLM](https://github.com/BerriAI/litellm) | Lightweight OpenAI-compatible gateway for multiple LLM providers | Python | MIT |
+| [AI Gateway](https://github.com/Portkey-AI/ai-gateway) | Gateway for managing LLM requests, caching, and routing | Python | Apache-2.0 |
+| [Langcorn](https://github.com/langcorn/langcorn) | Serve LangChain applications via FastAPI with production-ready endpoints | Python | MIT |
+| [LitServe](https://github.com/Lightning-AI/LitServe) | High-speed GPU inference server with autoscaling and batch support | Python | Apache-2.0 |
+
+### LLM Data Generation
+
+| Tool | Description | Language | License |
+|------|-------------|----------|---------|
+| [DataDreamer](https://github.com/stanfordnlp/dreamer) | Framework for creating synthetic datasets to train & evaluate LLMs | Python | Apache-2.0 |
+| [fabricator](https://github.com/fabricator-ai/fabricator) | Data generation toolkit for crafting synthetic training data | Python | MIT |
+| [Promptwright](https://github.com/promptwright/promptwright) | Toolkit for prompt engineering, evaluation, and dataset curation | Python | Apache-2.0 |
+| [EasyInstruct](https://github.com/zjunlp/EasyInstruct) | Instruction data generation framework for large-scale LLM training | Python | Apache-2.0 |
+| [Text Machina](https://github.com/text-machina/text-machina) | Dataset generation framework for robust AI training | Python | Apache-2.0 |
 
 ### LLM Inference Platforms
 
@@ -211,6 +309,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Anyscale](https://www.anyscale.com/) | Ray-based platform for AI applications | Enterprise | Distributed training, Serving |
 | [Groq](https://groq.com/) | Ultra-fast LPU inference engine for running open AI models |Free tier + Pay-per-use | Blazing fast speed, High throughput, Low latency, Open model support |
 | [OpenRouter](https://openrouter.ai/) | Universal API to find and route to the best LLMs from various providers | Free tier + Pay-per-use | Multi-provider access, Unified API, Model comparison, Caching |
+| [RouteLLM](https://github.com/routeLLM/routeLLM) | Dynamic router for selecting best LLMs based on cost & performance | Open-source | Cost optimization, Multi-LLM routing |
 
 ## 🤝 Contributing
 
