@@ -156,6 +156,8 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Swarms](https://github.com/kyegomez/swarms) | Enterprise agent orchestration framework (“Agency Swarm”) | Python | MIT |
 | [Langroid](https://github.com/langroid/langroid) | Framework for building multi-agent conversational systems | Python | Apache-2.0 |
 | [Upsonic](https://github.com/upsonic/upsonic) | Agent framework focused on context management and tool use | Python | Apache-2.0 |
+| [go-agent](https://github.com/protocol-lattice/go-agent) | An agent framework for Go with graph-aware memory, UTCP-native tools, and multi-agent orchestration. | Go | Apache-2.0 |
+
 
 ## 📦 LLM Development & Optimization
 
