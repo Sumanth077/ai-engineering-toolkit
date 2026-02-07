@@ -15,6 +15,9 @@ dependencies = [
 dev = [
     "pytest>=7.0",
 ]
+ui = [
+    "streamlit>=1.30.0",
+]
 
 [project.scripts]
 intraday-analyzer = "intraday_analyzer.cli:main"

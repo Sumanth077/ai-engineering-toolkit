@@ -17,9 +17,12 @@ A rule-based, multi-timeframe intraday trading signal engine. Accepts computed t
 
 ```bash
 # Install (Python >= 3.10)
-pip install -e ".[dev]"
+pip install -e ".[dev,ui]"
 
-# Run via CLI (reads JSON from stdin)
+# Launch the web UI
+streamlit run app.py
+
+# Or run via CLI (reads JSON from stdin)
 cat examples/bullish_aapl.json | intraday-analyzer
 
 # Or pass a file path
@@ -29,9 +32,20 @@ intraday-analyzer examples/bullish_aapl.json
 pytest
 ```
 
+### Web UI
+
+The Streamlit dashboard provides three input modes:
+
+- **Interactive Form** -- Fill in ticker, indicators, S/R levels, and news via form fields and tabs
+- **JSON Editor** -- Paste or edit raw JSON directly
+- **Load Example** -- Pick a bundled example file (AAPL bullish, TSLA bearish)
+
+The UI displays the signal action (color-coded), confidence, R:R, trade levels, multi-timeframe summary, reasons, invalidations, and the raw JSON output.
+
 ## Project Structure
 
 ```
+app.py                            # Streamlit web UI
 intraday_analyzer/
     __init__.py        # Package exports
     models.py          # Dataclasses for input/output + parse_input()
