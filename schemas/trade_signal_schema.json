@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IntradayTradeSignal",
+  "description": "Output schema for the intraday trading analyzer",
+  "type": "object",
+  "required": ["ticker", "timestamp", "action", "confidence", "reasons", "invalidations", "meta"],
+  "additionalProperties": false,
+  "properties": {
+    "ticker": {
+      "type": "string",
+      "description": "The stock/instrument ticker symbol"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of the signal"
+    },
+    "action": {
+      "type": "string",
+      "enum": ["Buy", "Sell", "Hold"],
+      "description": "Recommended trading action"
+    },
+    "confidence": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Confidence level of the signal (0-100)"
+    },
+    "entry": {
+      "type": ["number", "null"],
+      "description": "Suggested entry price. Null if action is Hold."
+    },
+    "stop": {
+      "type": ["number", "null"],
+      "description": "Suggested stop-loss price. Null if action is Hold."
+    },
+    "target1": {
+      "type": ["number", "null"],
+      "description": "First take-profit target. Null if action is Hold."
+    },
+    "target2": {
+      "type": ["number", "null"],
+      "description": "Second take-profit target (optional extension). Null if action is Hold."
+    },
+    "risk_reward": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "description": "Risk/Reward ratio based on entry/stop/target1. Null if action is Hold."
+    },
+    "position_size_pct": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Suggested position size as % of portfolio. Null if action is Hold."
+    },
+    "reasons": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "description": "Brief reasoning for the trade signal"
+    },
+    "invalidations": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Conditions that would flip or exit the trade"
+    },
+    "meta": {
+      "type": "object",
+      "required": ["hourly_trend", "fifteen_min_setup", "one_min_timing", "news_impact"],
+      "additionalProperties": false,
+      "properties": {
+        "hourly_trend": {
+          "type": "string",
+          "enum": ["Bullish", "Bearish", "Neutral"],
+          "description": "Direction of the 1h trend"
+        },
+        "fifteen_min_setup": {
+          "type": "string",
+          "description": "Summary of the 15m setup confirmation"
+        },
+        "one_min_timing": {
+          "type": "string",
+          "description": "Summary of the 1m timing signal"
+        },
+        "news_impact": {
+          "type": "string",
+          "enum": ["High", "Medium", "Low", "None"],
+          "description": "Overall news impact level"
+        },
+        "news_sentiment_conflict": {
+          "type": "boolean",
+          "description": "Whether news sentiment contradicts the trade direction"
+        }
+      }
+    }
+  }
+}

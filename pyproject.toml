@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "intraday-analyzer"
+version = "0.1.0"
+description = "Multi-timeframe intraday trading signal analyzer"
+requires-python = ">=3.10"
+dependencies = [
+    "jsonschema>=4.20.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+]
+
+[project.scripts]
+intraday-analyzer = "intraday_analyzer.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["intraday_analyzer*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

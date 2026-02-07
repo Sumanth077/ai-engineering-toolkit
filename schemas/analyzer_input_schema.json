@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AnalyzerInput",
+  "description": "Input schema for the intraday trading analyzer",
+  "type": "object",
+  "required": ["ticker", "current_price", "indicators", "price_summary", "support_resistance", "news_sentiment"],
+  "additionalProperties": false,
+  "properties": {
+    "ticker": {
+      "type": "string"
+    },
+    "current_price": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "indicators": {
+      "type": "object",
+      "required": ["1m", "15m", "1h"],
+      "additionalProperties": false,
+      "properties": {
+        "1m": { "$ref": "#/$defs/timeframe_indicators" },
+        "15m": { "$ref": "#/$defs/timeframe_indicators" },
+        "1h": { "$ref": "#/$defs/timeframe_indicators" }
+      }
+    },
+    "price_summary": {
+      "type": "object",
+      "required": ["open", "high", "low", "close", "volume", "vwap"],
+      "additionalProperties": false,
+      "properties": {
+        "open": { "type": "number" },
+        "high": { "type": "number" },
+        "low": { "type": "number" },
+        "close": { "type": "number" },
+        "volume": { "type": "integer" },
+        "vwap": { "type": "number" },
+        "avg_volume": { "type": "integer" },
+        "volatility_percentile": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    },
+    "support_resistance": {
+      "type": "object",
+      "required": ["supports", "resistances"],
+      "additionalProperties": false,
+      "properties": {
+        "supports": {
+          "type": "array",
+          "items": { "type": "number" }
+        },
+        "resistances": {
+          "type": "array",
+          "items": { "type": "number" }
+        }
+      }
+    },
+    "news_sentiment": {
+      "type": "object",
+      "required": ["impact", "sentiment", "headlines"],
+      "additionalProperties": false,
+      "properties": {
+        "impact": {
+          "type": "string",
+          "enum": ["High", "Medium", "Low", "None"]
+        },
+        "sentiment": {
+          "type": "string",
+          "enum": ["Bullish", "Bearish", "Neutral"]
+        },
+        "headlines": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "timeframe_indicators": {
+      "type": "object",
+      "required": ["ema9", "ema21", "rsi14", "macd", "atr14"],
+      "additionalProperties": false,
+      "properties": {
+        "ema9": { "type": "number" },
+        "ema21": { "type": "number" },
+        "ema50": { "type": ["number", "null"] },
+        "rsi14": { "type": "number", "minimum": 0, "maximum": 100 },
+        "macd": {
+          "type": "object",
+          "required": ["value", "signal", "histogram"],
+          "additionalProperties": false,
+          "properties": {
+            "value": { "type": "number" },
+            "signal": { "type": "number" },
+            "histogram": { "type": "number" }
+          }
+        },
+        "atr14": { "type": "number", "minimum": 0 },
+        "bbands": {
+          "type": ["object", "null"],
+          "properties": {
+            "upper": { "type": "number" },
+            "middle": { "type": "number" },
+            "lower": { "type": "number" }
+          }
+        },
+        "volume_sma20": { "type": ["number", "null"] }
+      }
+    }
+  }
+}
