@@ -1,0 +1,47 @@
+{
+  "ticker": "AAPL",
+  "current_price": 185.00,
+  "indicators": {
+    "1m": {
+      "ema9": 185.05,
+      "ema21": 184.95,
+      "rsi14": 42.0,
+      "macd": { "value": 0.03, "signal": 0.01, "histogram": 0.02 },
+      "atr14": 0.10
+    },
+    "15m": {
+      "ema9": 185.20,
+      "ema21": 184.80,
+      "rsi14": 58.0,
+      "macd": { "value": 0.20, "signal": 0.05, "histogram": 0.15 },
+      "atr14": 0.60
+    },
+    "1h": {
+      "ema9": 185.50,
+      "ema21": 184.00,
+      "ema50": 182.00,
+      "rsi14": 62.0,
+      "macd": { "value": 0.50, "signal": 0.05, "histogram": 0.45 },
+      "atr14": 1.20
+    }
+  },
+  "price_summary": {
+    "open": 183.50,
+    "high": 185.80,
+    "low": 183.20,
+    "close": 185.00,
+    "volume": 52000000,
+    "vwap": 184.50,
+    "avg_volume": 40000000,
+    "volatility_percentile": 55.0
+  },
+  "support_resistance": {
+    "supports": [183.00, 181.50, 180.00],
+    "resistances": [186.50, 188.00, 190.00]
+  },
+  "news_sentiment": {
+    "impact": "Low",
+    "sentiment": "Neutral",
+    "headlines": ["AAPL steady trading day"]
+  }
+}

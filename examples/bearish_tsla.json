@@ -1,0 +1,47 @@
+{
+  "ticker": "TSLA",
+  "current_price": 220.00,
+  "indicators": {
+    "1m": {
+      "ema9": 219.90,
+      "ema21": 220.10,
+      "rsi14": 58.0,
+      "macd": { "value": -0.06, "signal": -0.01, "histogram": -0.05 },
+      "atr14": 0.25
+    },
+    "15m": {
+      "ema9": 219.50,
+      "ema21": 220.80,
+      "rsi14": 42.0,
+      "macd": { "value": -0.35, "signal": -0.05, "histogram": -0.30 },
+      "atr14": 1.20
+    },
+    "1h": {
+      "ema9": 219.00,
+      "ema21": 221.50,
+      "ema50": 223.00,
+      "rsi14": 38.0,
+      "macd": { "value": -0.90, "signal": -0.10, "histogram": -0.80 },
+      "atr14": 2.50
+    }
+  },
+  "price_summary": {
+    "open": 222.00,
+    "high": 222.50,
+    "low": 219.00,
+    "close": 220.00,
+    "volume": 65000000,
+    "vwap": 220.80,
+    "avg_volume": 50000000,
+    "volatility_percentile": 70.0
+  },
+  "support_resistance": {
+    "supports": [218.00, 215.00, 212.00],
+    "resistances": [222.50, 225.00, 228.00]
+  },
+  "news_sentiment": {
+    "impact": "Low",
+    "sentiment": "Neutral",
+    "headlines": ["TSLA normal trading"]
+  }
+}
