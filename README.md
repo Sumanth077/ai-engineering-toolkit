@@ -197,6 +197,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | Toolkit for adding programmable guardrails to LLM conversational systems | Python | Apache-2.0 |
 | [Garak](https://github.com/leondz/garak) | LLM vulnerability scanner | Python | MIT |
 | [DeepTeam](https://github.com/DeepTeamAI/deepteam) | LLM red teaming framework | Python | Apache-2.0 |
+| [Asqav](https://github.com/jagmarques/asqav-sdk) | AI agent compliance validation against EU AI Act and OWASP standards | Python | MIT |
 
 ### AI App Development Frameworks
 
