@@ -109,6 +109,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Langfuse](https://github.com/langfuse/langfuse) | Open source LLM engineering platform with tracing, evals, prompt management, and metrics | TypeScript/Python | MIT |
 | [Helicone](https://github.com/Helicone/helicone) | Open source observability and monitoring platform for debugging and improving LLM apps | TypeScript | Apache-2.0 |
 | [OpenLLMetry](https://github.com/traceloop/openllmetry) | OpenTelemetry-based observability extensions for LLM apps — plugs into Datadog, Honeycomb, and more | Python | Apache-2.0 |
+| [traceAI](https://github.com/future-agi/traceAI) | Open-source OpenTelemetry-native tracing for LLM and AI agent apps; auto-instruments OpenAI, Anthropic, LangChain, LlamaIndex, CrewAI, Bedrock | Python | MIT |
 
 ### Model Management
 
