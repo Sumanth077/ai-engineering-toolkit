@@ -162,6 +162,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Langroid](https://github.com/langroid/langroid) | Framework for building multi-agent conversational systems | Python | Apache-2.0 |
 | [Upsonic](https://github.com/upsonic/upsonic) | Agent framework focused on context management and tool use | Python | Apache-2.0 |
 | [Mem0](https://github.com/mem0ai/mem0) | Universal memory layer for AI agents — persistent, personalized memory across sessions | Python | Apache-2.0 |
+| [eidan](https://github.com/sielay/eidan) | Self-hosted personal agent host — plugin-extensible, Postgres-backed memory, bidirectional MCP | Python/TypeScript | AGPL-3.0 |
 
 ## 📦 LLM Development & Optimization
 
