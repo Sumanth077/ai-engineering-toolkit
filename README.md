@@ -228,6 +228,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [llama.cpp](https://github.com/ggml-org/llama.cpp) | Lightweight, high-performance inference engine for running LLMs locally across CPU, GPU, and mobile backends | C++ | MIT |
 | [LiteLLM](https://github.com/BerriAI/litellm) | Lightweight OpenAI-compatible gateway for multiple LLM providers | Python | MIT |
 | [AI Gateway](https://github.com/Portkey-AI/ai-gateway) | Gateway for managing LLM requests, caching, and routing | Python | Apache-2.0 |
+| [GCF Proxy](https://github.com/blackwell-systems/gcf-proxy) | Drop-in proxy for MCP servers that compresses tool responses by 71%, zero code changes required | Go/Python/Node | MIT |
 | [Langcorn](https://github.com/langcorn/langcorn) | Serve LangChain applications via FastAPI with production-ready endpoints | Python | MIT |
 | [LitServe](https://github.com/Lightning-AI/LitServe) | High-speed GPU inference server with autoscaling and batch support | Python | Apache-2.0 |
 
@@ -238,6 +239,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Instructor](https://github.com/567-labs/instructor) | Multi-language library for extracting structured, validated outputs from LLMs using Pydantic | Python/TS/Go | MIT |
 | [Outlines](https://github.com/dottxt-ai/outlines) | Guarantees 100% valid structured outputs (JSON, regex, grammars) by constraining LLM token generation | Python | Apache-2.0 |
 | [Guidance](https://github.com/guidance-ai/guidance) | Microsoft's language for controlling LLM outputs — interleave generation with conditionals, loops, and constraints | Python | MIT |
+| [GCF](https://github.com/blackwell-systems/gcf) | Token-optimized wire format for LLM tool responses. 71% fewer tokens than JSON, 100% comprehension on every frontier model. 6 language implementations | Go/Rust/TS/Python/Swift/Kotlin | MIT |
 
 ### LLM Inference Platforms
 
