@@ -250,6 +250,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Anyscale](https://www.anyscale.com/) | Ray-based platform for AI applications | Enterprise | Distributed training, Serving |
 | [Groq](https://groq.com/) | Ultra-fast LPU inference engine for running open AI models |Free tier + Pay-per-use | Blazing fast speed, High throughput, Low latency, Open model support |
 | [OpenRouter](https://openrouter.ai/) | Universal API to find and route to the best LLMs from various providers | Free tier + Pay-per-use | Multi-provider access, Unified API, Model comparison, Caching |
+| [Requesty](https://requesty.ai/) | OpenAI-compatible LLM gateway routing a single API across many model providers | Free tier + Pay-per-use | Multi-provider access, Unified API, Smart routing, Caching |
 | [RouteLLM](https://github.com/routeLLM/routeLLM) | Dynamic router for selecting best LLMs based on cost & performance | Open-source | Cost optimization, Multi-LLM routing |
 
 ## 🤝 Contributing
