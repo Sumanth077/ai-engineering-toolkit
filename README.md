@@ -213,6 +213,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Streamlit](https://github.com/streamlit/streamlit) | Build and share AI/ML apps fast with Python scripts and interactive widgets. | Python | Apache-2.0 |
 | [Taipy](https://github.com/Avaiga/taipy) | End-to-end Python framework for building production-ready AI apps with dashboards and pipelines. | Python | Apache-2.0 |
 | [AI SDK UI](https://github.com/vercel/ai) | Vercel’s AI SDK for building chat & generative UIs | TypeScript | Apache-2.0 |
+| [Markstream](https://github.com/Simon-He95/markstream-vue) | Multi-framework streaming Markdown renderers for AI chat UIs with low-jitter updates, Mermaid, KaTeX, syntax highlighting, and safe HTML | TypeScript | MIT |
 | [Simpleaichat](https://github.com/minimaxir/simpleaichat) | Minimal Python interface for prototyping conversational LLMs | Python | MIT |
 | [Chainlit](https://github.com/Chainlit/chainlit) | Framework for building and debugging LLM apps with a rich UI | Python | Apache-2.0 |
 | [Mirascope](https://github.com/mirascope/mirascope) | Lightweight Python toolkit for building LLM apps with Pydantic-native structured outputs and no extra abstractions | Python | MIT |
