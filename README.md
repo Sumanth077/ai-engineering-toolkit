@@ -91,7 +91,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Chonkie](https://github.com/bhavnicksm/chonkie-main) | Chunking utility for efficient document processing in RAG | Python | - |
 | [FlashRAG](https://github.com/RUC-NLPIR/FlashRAG) | Low-latency RAG research toolkit with modular design and benchmarks | Python | - |
 | [Llmware](https://github.com/llmware-ai/llmware) | Lightweight framework for building RAG-based apps | Python | Apache-2.0 |
-| [Fortemi](https://github.com/Fortemi/fortemi) | Self-hosted AI knowledge base with hybrid search, MCP server, multimodal ingestion, and knowledge graph | Rust | Other |
+| [Fortemi](https://github.com/Fortemi/fortemi) | Self-hosted AI knowledge base with hybrid search, MCP server, multimodal ingestion, and knowledge graph | Rust | BSL-1.1 |
 
 ### Evaluation & Testing
 
