@@ -91,6 +91,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Chonkie](https://github.com/bhavnicksm/chonkie-main) | Chunking utility for efficient document processing in RAG | Python | - |
 | [FlashRAG](https://github.com/RUC-NLPIR/FlashRAG) | Low-latency RAG research toolkit with modular design and benchmarks | Python | - |
 | [Llmware](https://github.com/llmware-ai/llmware) | Lightweight framework for building RAG-based apps | Python | Apache-2.0 |
+| [Fortemi](https://github.com/Fortemi/fortemi) | Self-hosted AI knowledge base with hybrid search, MCP server, multimodal ingestion, and knowledge graph | Rust | Other |
 
 ### Evaluation & Testing
 
@@ -162,6 +163,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Langroid](https://github.com/langroid/langroid) | Framework for building multi-agent conversational systems | Python | Apache-2.0 |
 | [Upsonic](https://github.com/upsonic/upsonic) | Agent framework focused on context management and tool use | Python | Apache-2.0 |
 | [Mem0](https://github.com/mem0ai/mem0) | Universal memory layer for AI agents — persistent, personalized memory across sessions | Python | Apache-2.0 |
+| [AIWG](https://github.com/jmagly/aiwg) | Cognitive architecture for AI-augmented software development with specialized agents, structured workflows, and multi-platform deployment | TypeScript | MIT |
 
 ## 📦 LLM Development & Optimization
 
@@ -203,6 +205,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) | Toolkit for adding programmable guardrails to LLM conversational systems | Python | Apache-2.0 |
 | [Garak](https://github.com/leondz/garak) | LLM vulnerability scanner | Python | MIT |
 | [DeepTeam](https://github.com/DeepTeamAI/deepteam) | LLM red teaming framework | Python | Apache-2.0 |
+| [Agent Sandbox](https://github.com/agent-sandbox/agent-sandbox) | E2B-compatible sandbox platform for securely running AI agent code, browser use, and computer use | Go | Apache-2.0 |
 
 ### AI App Development Frameworks
 
