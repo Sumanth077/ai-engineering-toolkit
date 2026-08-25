@@ -228,6 +228,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [llama.cpp](https://github.com/ggml-org/llama.cpp) | Lightweight, high-performance inference engine for running LLMs locally across CPU, GPU, and mobile backends | C++ | MIT |
 | [LiteLLM](https://github.com/BerriAI/litellm) | Lightweight OpenAI-compatible gateway for multiple LLM providers | Python | MIT |
 | [AI Gateway](https://github.com/Portkey-AI/ai-gateway) | Gateway for managing LLM requests, caching, and routing | Python | Apache-2.0 |
+| [Bifrost](https://github.com/maximhq/bifrost) | High-performance Go AI gateway with an OpenAI-compatible API, multi-provider routing, automatic failover, load balancing, and governance | Go | Apache-2.0 |
 | [Langcorn](https://github.com/langcorn/langcorn) | Serve LangChain applications via FastAPI with production-ready endpoints | Python | MIT |
 | [LitServe](https://github.com/Lightning-AI/LitServe) | High-speed GPU inference server with autoscaling and batch support | Python | Apache-2.0 |
 
