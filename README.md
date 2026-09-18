@@ -109,6 +109,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Langfuse](https://github.com/langfuse/langfuse) | Open source LLM engineering platform with tracing, evals, prompt management, and metrics | TypeScript/Python | MIT |
 | [Helicone](https://github.com/Helicone/helicone) | Open source observability and monitoring platform for debugging and improving LLM apps | TypeScript | Apache-2.0 |
 | [OpenLLMetry](https://github.com/traceloop/openllmetry) | OpenTelemetry-based observability extensions for LLM apps — plugs into Datadog, Honeycomb, and more | Python | Apache-2.0 |
+| [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) | Records what an agent actually sent and received at the provider boundary, then replays that run offline with the provider unreachable — one failed run becomes a repeatable regression case, and can be forked onto another model | TypeScript | Apache-2.0 |
 
 ### Model Management
 
