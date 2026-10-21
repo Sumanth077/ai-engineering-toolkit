@@ -251,6 +251,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Groq](https://groq.com/) | Ultra-fast LPU inference engine for running open AI models |Free tier + Pay-per-use | Blazing fast speed, High throughput, Low latency, Open model support |
 | [OpenRouter](https://openrouter.ai/) | Universal API to find and route to the best LLMs from various providers | Free tier + Pay-per-use | Multi-provider access, Unified API, Model comparison, Caching |
 | [RouteLLM](https://github.com/routeLLM/routeLLM) | Dynamic router for selecting best LLMs based on cost & performance | Open-source | Cost optimization, Multi-LLM routing |
+| [Cheaper Inference](https://cheaperinference.com/) | OpenAI-compatible LLM gateway with one API for models from several labs | Pay-per-use | Multi-provider access, Unified API, OpenAI-compatible API |
 
 ## 🤝 Contributing
 
