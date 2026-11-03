@@ -162,6 +162,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Langroid](https://github.com/langroid/langroid) | Framework for building multi-agent conversational systems | Python | Apache-2.0 |
 | [Upsonic](https://github.com/upsonic/upsonic) | Agent framework focused on context management and tool use | Python | Apache-2.0 |
 | [Mem0](https://github.com/mem0ai/mem0) | Universal memory layer for AI agents — persistent, personalized memory across sessions | Python | Apache-2.0 |
+| [deja-vu](https://github.com/vshulcz/deja-vu) | Local session memory and recall across 43 AI coding agents via hooks, MCP, and skills | Go | MIT |
 
 ## 📦 LLM Development & Optimization
 
