@@ -59,6 +59,7 @@ A curated, list of 100+ libraries and frameworks for AI engineers building with 
 | [Flowise](https://github.com/FlowiseAI/Flowise) | Drag-and-drop UI for creating LLM chains and agents | TypeScript | MIT |
 | [Promptflow](https://github.com/microsoft/promptflow) | Workflow orchestration for LLM pipelines, evaluation, and deployment | Python | MIT |
 | [Dify](https://github.com/langgenius/dify) | Production-ready open source platform combining RAG pipelines, agent capabilities, model management, and observability in one UI | TypeScript/Python | Apache-2.0 |
+| [Heym](https://github.com/heymrun/heym) | Self-hosted runtime for agent workflows with visual authoring, MCP tools, execution traces, evaluations, and human approval checkpoints | Python/TypeScript | MIT + Commons Clause |
 
 ### PDF Extraction Tools
 
